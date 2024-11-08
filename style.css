@@ -175,3 +175,20 @@ footer input[type="text"],input[type="email"],textarea
     border: none;
     
 }
+
+
+
+@media screen and (max-width:576px){
+    .skill-container,.resume-container, footer, .about-items{
+        flex-direction: column;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"],input[type="email"],textarea{
+        width: calc(100% - 40px);
+    }
+}
